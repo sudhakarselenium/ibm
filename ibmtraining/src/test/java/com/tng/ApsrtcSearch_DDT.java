@@ -22,6 +22,7 @@ public class ApsrtcSearch_DDT {
 
 	@BeforeClass
 	public void openApplication() {
+		System.out.println("First change");
 		driver = DriverFactory.getDriver("chrome");
 
 		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
