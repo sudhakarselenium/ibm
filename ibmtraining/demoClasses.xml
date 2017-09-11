@@ -1,0 +1,7 @@
+<suite name="demo">
+	<test name="smoke">
+		<classes>
+			<class name="com.tng.ApsrtcSearch_DDT" />
+		</classes>
+	</test>
+</suite>
